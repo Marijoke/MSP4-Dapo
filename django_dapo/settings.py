@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'dapo',
     'django.contrib.sites',
     'allauth',
     'allauth.account', #basic account login and out and password resets
