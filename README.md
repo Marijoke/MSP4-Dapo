@@ -115,7 +115,7 @@ Secret key, MongoDB name and URI.
 ## Credits
 ### Content 
 - 
-- I used the Code institute mini project tutorial and source code to help build my project
+- I used my learnings from the Code institute Project - Boutique Ado to help build my project
 - [Readme template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md#existing-features) helped me write my Readme file.
 ### Acknowledgements
 - 
