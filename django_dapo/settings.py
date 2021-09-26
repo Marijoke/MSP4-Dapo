@@ -37,11 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'dapo',
     'django.contrib.sites',
     'allauth',
     'allauth.account', #basic account login and out and password resets
     'allauth.socialaccount', #allows login via social media
-    'dapo',
+    
 ]
 
 MIDDLEWARE = [
@@ -81,7 +82,7 @@ AUTHENTICATION_BACKENDS = [
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
 
-SITE__ID = 1
+SITE_ID = 1
 
 WSGI_APPLICATION = 'django_dapo.wsgi.application'
 
