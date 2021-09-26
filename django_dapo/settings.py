@@ -39,6 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'dapo'
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account', #basic account login and out
+    'allauth.socialaccount', #allows login via social media
 ]
 
 MIDDLEWARE = [
@@ -61,13 +65,24 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',
+                'django.template.context_processors.request', #Needed for allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
         },
     },
 ]
+
+AUTHENTICATION_BACKENDS = [
+   
+    # allows superuser login via django admin
+    'django.contrib.auth.backends.ModelBackend',
+
+    # Allows users to log in using email address
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
+
+SITE__ID = 1
 
 WSGI_APPLICATION = 'django_dapo.wsgi.application'
 
