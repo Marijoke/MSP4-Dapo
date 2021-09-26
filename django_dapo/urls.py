@@ -20,5 +20,5 @@ from dapo.views import welcome_to_dapo
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', welcome_to_dapo, name='home'),
-    path('accounts', include('allauth.urls')), 
+    path('accounts/', include('allauth.urls')), 
 ]
