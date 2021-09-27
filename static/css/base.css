@@ -27,7 +27,7 @@ body {
     width: fit-content;
 }
 
-.shop-now-button {
+.get-yours-button {
     background: black;
     color: white;
     min-width: 260px;
@@ -36,4 +36,22 @@ body {
 .btn-black {
     background: black;
     color: white;
+}
+
+.get-yours-button:hover,
+.get-yours-button:active,
+.get-yours-button:focus,
+.btn-black:hover,
+.btn-black:active,
+.btn-black:focus {
+    background: #222;
+    color: white;
+}
+
+.text-black {
+    color: #000 !important;
+}
+
+.border-black {
+    border: 1px solid black !important;
 }
