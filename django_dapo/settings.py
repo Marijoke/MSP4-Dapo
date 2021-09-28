@@ -39,8 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'allauth',
-    'allauth.account', #basic account login and out and password resets
-    'allauth.socialaccount', #allows login via social media
+    'allauth.account',  # basic account login and out and password resets
+    'allauth.socialaccount',  # allows login via social media
     'home',
 ]
 
@@ -67,7 +67,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', #Needed for allauth
+                'django.template.context_processors.request',  # Needed for allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
@@ -76,8 +76,7 @@ TEMPLATES = [
 ]
 
 AUTHENTICATION_BACKENDS = [
-   
-    # allows superuser login via django admin
+    # Allows superuser login via django admin
     'django.contrib.auth.backends.ModelBackend',
 
     # Allows users to log in using email address
@@ -89,9 +88,9 @@ SITE_ID = 1
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
-ACCOUNT_EMAIL_REQUIRED = True #email required
-ACCOUNT_EMAIL_VERIFICATION = 'mandatory' #email required
-ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True #email required
+ACCOUNT_EMAIL_REQUIRED = True  # email required
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'  # email required
+ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True  # email required
 ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
