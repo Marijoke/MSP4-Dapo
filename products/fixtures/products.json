@@ -5,7 +5,7 @@
         "fields": {
             "sku": "dg88773201",
             "name": "Dish or Drink",
-            "description": "",
+            "description": "Great to play with friends, old and new. Get to know the people around you better than you expected, featuring SFW questions you’ve secretly wanted to know to but couldn’t ask.",
             "price": 34.99,
             "category": 1,
             "image_url": "#",
@@ -18,7 +18,7 @@
         "fields": {
             "sku": "dg88773102",
             "name": "NSFW Dish or Drink",
-            "description": "",
+            "description": "Great to play with friends, old and new. Get to know the people around you better than you expected, featuring NSFW questions you’ve secretly wanted to know to but wouldn’t dare ask.",
             "price": 34.99,
             "category": 2,
             "image_url": "#",
@@ -30,8 +30,8 @@
         "model": "products.product",
         "fields": {
             "sku": "sg76543701",
-            "name": "Sober Dish",
-            "description": "",
+            "name": "Sober Secrets",
+            "description": "No alcohol, no problem. Get to know the people around you a lot better with SFW forfeit alternatives to our No.1 Game Dish or Drink.",
             "price": 34.99,
             "category": 1,
             "image_url": "#",
@@ -43,8 +43,8 @@
         "model": "products.product",
         "fields": {
             "sku": "sg76543107",
-            "name": "NSFW Sober Dish",
-            "description": "",
+            "name": "NSFW Sober Secrets",
+            "description": "No alcohol, no problem. Get to know the people around you a lot better with our turned up NSFW forfeit alternatives to our No.1 Game Dish or Drink.",
             "price": 34.99,
             "category": 2,
             "image_url": "#",
@@ -57,7 +57,7 @@
         "fields": {
             "sku": "pn88755201",
             "name": "Wipe Off Wall Planner",
-            "description": "",
+            "description": "Organise your goals weekly with our wipe off wall planner. List your short and long-term goals, your affirmations to keep you going and the things you’ll do this week to make you happy.",
             "price": 15.99,
             "category": 3,
             "image_url": "#",
@@ -68,9 +68,9 @@
         "pk": 6,
         "model": "products.product",
         "fields": {
-            "sku": "pn88755220",
+            "sku": "pn88755222",
             "name": "Couples Date Planner",
-            "description": "",
+            "description": "Out of date ideas? Our couples date planner offers many ways to relight your fire and bring you closer to your partner.",
             "price": 24.99,
             "category": 3,
             "image_url": "#",
@@ -83,7 +83,7 @@
         "fields": {
             "sku": "pn82955260",
             "name": "Life Planner",
-            "description": "",
+            "description": "Get your life together, keep your positive affirmations in check, jot down your million pound ideas and organise your year with our page a day calendar.",
             "price": 27.99,
             "category": 3,
             "image_url": "#",
@@ -94,11 +94,11 @@
         "pk": 8,
         "model": "products.product",
         "fields": {
-            "sku": "pn82955260",
+            "sku": "pn82996260",
             "name": "Clearance",
-            "description": "",
-            "price": 27.99,
-            "category": 3,
+            "description": "Last chance to buy. We’re moving on from these products, bigger and better things to come.",
+            "price": null,
+            "category": 4,
             "image_url": "#",
             "image": "#"
         }
@@ -107,10 +107,11 @@
         "pk": 9,
         "model": "products.product",
         "fields": {
-            "sku": "pn82955260",
+            "sku": "pn82955269",
             "name": "Coming Soon",
-            "description": "",
-            "category": 3,
+            "description": "Stay tuned for our new products to make life more fun and organised",
+            "price": null,
+            "category": 5,
             "image_url": "#",
             "image": "#"
         }
