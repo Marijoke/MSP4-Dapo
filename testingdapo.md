@@ -1,4 +1,4 @@
-# All booked
+# DAPO
 ## User stories 
 - As an existing 
     - Each user  
@@ -18,5 +18,7 @@
 Please find the full testing document [here](link)
 
 ## Bugs
--  
+- My account and shopping bag were duplicated and stacked on mobile devices
+- Coming soon copy not responsive in mobile.
+
     

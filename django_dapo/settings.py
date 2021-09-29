@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'allauth.account',  # basic account login and out and password resets
     'allauth.socialaccount',  # allows login via social media
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
@@ -67,7 +68,7 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',  # Needed for allauth
+                'django.template.context_processors.request',  # For allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
@@ -131,7 +132,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en-gb'
 
 TIME_ZONE = 'UTC'
 
