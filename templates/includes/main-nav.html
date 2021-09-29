@@ -16,11 +16,9 @@
                 Play
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="play-link">
-                <a href="" class="dropdown-item">SFW Drink &amp; Play</a>
-                <a href="" class="dropdown-item">NSFW Drink &amp; Play</a>
-                <a href="" class="dropdown-item">SFW No Drink &amp; Play</a>
-                <a href="" class="dropdown-item">NSFW No Drink &amp; Play</a>
-                <a href="" class="dropdown-item">All Games</a>
+                <a href="{% url 'products' %}?category=sfw-game" class="dropdown-item">SFW Games</a>
+                <a href="{% url 'products' %}?category=nsfw-game" class="dropdown-item">NSFW Games</a>
+                <a href="{% url 'products' %}?category=sfw-game,nsfw-game" class="dropdown-item">All Games</a>
             </div>
         </li>
 
@@ -29,10 +27,10 @@
                 Organise
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="organise-link">
-                <a href="" class="dropdown-item">Wipe Off Planner</a>
-                <a href="" class="dropdown-item">Couples</a>
-                <a href="" class="dropdown-item">Life</a>
-                <a href="" class="dropdown-item">All Planners</a>
+                <a href="{% url 'products' %}?category=wall-planner" class="dropdown-item">Wall Planners</a>
+                <a href="{% url 'products' %}?category=couple-game" class="dropdown-item">For Couples</a>
+                <a href="{% url 'products' %}?category=life-planners" class="dropdown-item">Lifestyle Planners</a>
+                <a href="{% url 'products' %}?category=life-planners,couple-game,wall-planner" class="dropdown-item">All Planners</a>
             </div>
         </li>
 

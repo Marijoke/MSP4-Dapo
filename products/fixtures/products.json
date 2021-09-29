@@ -56,10 +56,10 @@
         "model": "products.product",
         "fields": {
             "sku": "pn88755201",
-            "name": "Wipe Off Wall Planner",
+            "name": "Wipeaway Wall Planner",
             "description": "Organise your goals weekly with our wipe off wall planner. List your short and long-term goals, your affirmations to keep you going and the things you’ll do this week to make you happy.",
             "price": 15.99,
-            "category": 3,
+            "category": 7,
             "image_url": "#",
             "image": "#"
         }
@@ -69,10 +69,10 @@
         "model": "products.product",
         "fields": {
             "sku": "pn88755222",
-            "name": "Couples Date Planner",
+            "name": "Date Planner",
             "description": "Out of date ideas? Our couples date planner offers many ways to relight your fire and bring you closer to your partner.",
             "price": 24.99,
-            "category": 3,
+            "category": 6,
             "image_url": "#",
             "image": "#"
         }
@@ -82,7 +82,7 @@
         "model": "products.product",
         "fields": {
             "sku": "pn82955260",
-            "name": "Life Planner",
+            "name": "Day in the Life",
             "description": "Get your life together, keep your positive affirmations in check, jot down your million pound ideas and organise your year with our page a day calendar.",
             "price": 27.99,
             "category": 3,
