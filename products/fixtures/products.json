@@ -1,0 +1,118 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "dg88773201",
+            "name": "Dish or Drink",
+            "description": "",
+            "price": 34.99,
+            "category": 1,
+            "image_url": "#",
+            "image": "#"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku": "dg88773102",
+            "name": "NSFW Dish or Drink",
+            "description": "",
+            "price": 34.99,
+            "category": 2,
+            "image_url": "#",
+            "image": "#"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku": "sg76543701",
+            "name": "Sober Dish",
+            "description": "",
+            "price": 34.99,
+            "category": 1,
+            "image_url": "#",
+            "image": "#"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "sku": "sg76543107",
+            "name": "NSFW Sober Dish",
+            "description": "",
+            "price": 34.99,
+            "category": 2,
+            "image_url": "#",
+            "image": "#"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "sku": "pn88755201",
+            "name": "Wipe Off Wall Planner",
+            "description": "",
+            "price": 15.99,
+            "category": 3,
+            "image_url": "#",
+            "image": "#"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "sku": "pn88755220",
+            "name": "Couples Date Planner",
+            "description": "",
+            "price": 24.99,
+            "category": 3,
+            "image_url": "#",
+            "image": "#"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "sku": "pn82955260",
+            "name": "Life Planner",
+            "description": "",
+            "price": 27.99,
+            "category": 3,
+            "image_url": "#",
+            "image": "#"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "sku": "pn82955260",
+            "name": "Clearance",
+            "description": "",
+            "price": 27.99,
+            "category": 3,
+            "image_url": "#",
+            "image": "#"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "sku": "pn82955260",
+            "name": "Coming Soon",
+            "description": "",
+            "category": 3,
+            "image_url": "#",
+            "image": "#"
+        }
+    }
+]
