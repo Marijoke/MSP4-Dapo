@@ -97,7 +97,7 @@
             "sku": "pn82996260",
             "name": "Clearance",
             "description": "Last chance to buy. We’re moving on from these products, bigger and better things to come.",
-            "price": null,
+            "price": 0.00,
             "category": 4,
             "image_url": "#",
             "image": "#"
@@ -110,7 +110,7 @@
             "sku": "pn82955269",
             "name": "Coming Soon",
             "description": "Stay tuned for our new products to make life more fun and organised",
-            "price": null,
+            "price": 0.00,
             "category": 5,
             "image_url": "#",
             "image": "#"
