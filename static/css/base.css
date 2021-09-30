@@ -86,7 +86,9 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
-.rtn-link {
+.rtn-link,
+.update-link,
+.remove-item {
     cursor: pointer;
 }
 
