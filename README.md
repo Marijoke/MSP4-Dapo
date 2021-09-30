@@ -114,7 +114,7 @@ Secret key, MongoDB name and URI.
 
 ## Credits
 ### Content 
-- 
+- [Django Documentation](https://docs.djangoproject.com/en/3.2/)
 - I used my learnings from the Code institute Project - Boutique Ado to help build my project
 - [Readme template](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md#existing-features) helped me write my Readme file.
 - [Learn JSON in Minutes](https://www.youtube.com/watch?v=iiADhChRriM)
