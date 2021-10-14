@@ -24,8 +24,7 @@ SECRET_KEY = 'django-insecure-(e1%9)v2@q-9xj12e$#&(8kh^juf0%et%dtzt#ui@y_rh12n=e
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['marijoke-dapo-msp4.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -43,6 +42,10 @@ INSTALLED_APPS = [
     'allauth.socialaccount',  # allows login via social media
     'home',
     'products',
+    'bag',
+    'checkout',
+    'profiles',
+
 ]
 
 MIDDLEWARE = [
@@ -56,6 +59,9 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'django_dapo.urls'
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
 TEMPLATES = [
     {
@@ -73,9 +79,15 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 'bag.contexts.bag_contents',
             ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+            ]
         },
     },
 ]
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 AUTHENTICATION_BACKENDS = [
     # Allows superuser login via django admin
@@ -158,5 +170,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# Stripe
 FREE_DELIVERY_THRESHOLD = 50
 STANDARD_DELIVERY_PERCENTAGE = 10
