@@ -10,10 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
-import dj_database_url
+# import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = path(__file__).resolve().parent.parent
 
 
 # Quick-start development settings - unsuitable for production
@@ -118,9 +118,7 @@ WSGI_APPLICATION = 'django_dapo.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': dj_database_url.parse(postgres://msgjvstndjnjvi:e99a294e5351410e3a7cd899addf1b529eab86c272ad295decda7d92b170a09c@ec2-54-170-163-224.eu-west-1.compute.amazonaws.com:5432/d7e0e1t7e186hd) 
-}
+DATABASES = {}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
