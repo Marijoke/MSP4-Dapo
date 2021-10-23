@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
-from pathlib import Path
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -49,9 +49,6 @@ INSTALLED_APPS = [
     'profiles',
     'crispy_forms',
     'crispy_bootstrap5',
-    'storages',
-
-
 ]
 
 MIDDLEWARE = [
@@ -122,12 +119,8 @@ WSGI_APPLICATION = 'django_dapo.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+    'default': dj_database_url.parse(postgres://msgjvstndjnjvi:e99a294e5351410e3a7cd899addf1b529eab86c272ad295decda7d92b170a09c@ec2-54-170-163-224.eu-west-1.compute.amazonaws.com:5432/d7e0e1t7e186hd) 
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
