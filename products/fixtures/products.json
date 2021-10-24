@@ -8,8 +8,8 @@
             "description": "Great to play with friends, old and new. Get to know the people around you better than you expected, featuring SFW questions you’ve secretly wanted to know to but couldn’t ask.",
             "price": 34.99,
             "category": 1,
-            "image_url": "#",
-            "image": "#"
+            "image_url": "https://photos.app.goo.gl/Zx7yZ12CAerwsbrr5",
+            "image": "Card-game-1.jpg"
         }
     },
     {
@@ -21,8 +21,8 @@
             "description": "Great to play with friends, old and new. Get to know the people around you better than you expected, featuring NSFW questions you’ve secretly wanted to know to but wouldn’t dare ask.",
             "price": 34.99,
             "category": 2,
-            "image_url": "#",
-            "image": "#"
+            "image_url": "https://photos.app.goo.gl/rGqiaP2mcVo2fKbF7",
+            "image": "Card-game-2.jpg"
         }
     },
     {
@@ -34,8 +34,8 @@
             "description": "No alcohol, no problem. Get to know the people around you a lot better with SFW forfeit alternatives to our No.1 Game Dish or Drink.",
             "price": 34.99,
             "category": 1,
-            "image_url": "#",
-            "image": "#"
+            "image_url": "https://photos.app.goo.gl/Zx7yZ12CAerwsbrr5",
+            "image": "Card-game-1.jpg"
         }
     },
     {
@@ -47,8 +47,8 @@
             "description": "No alcohol, no problem. Get to know the people around you a lot better with our turned up NSFW forfeit alternatives to our No.1 Game Dish or Drink.",
             "price": 34.99,
             "category": 2,
-            "image_url": "#",
-            "image": "#"
+            "image_url": "https://photos.app.goo.gl/rGqiaP2mcVo2fKbF7",
+            "image": "Card-game-2.jpg"
         }
     },
     {
@@ -60,8 +60,8 @@
             "description": "Organise your goals weekly with our wipe off wall planner. List your short and long-term goals, your affirmations to keep you going and the things you’ll do this week to make you happy.",
             "price": 15.99,
             "category": 7,
-            "image_url": "#",
-            "image": "#"
+            "image_url": "https://photos.app.goo.gl/6kXrTN3tS6ZfF9sE8",
+            "image": "Wallplanner.jpg"
         }
     },
     {
@@ -73,8 +73,8 @@
             "description": "Out of date ideas? Our couples date planner offers many ways to relight your fire and bring you closer to your partner.",
             "price": 24.99,
             "category": 6,
-            "image_url": "#",
-            "image": "#"
+            "image_url": "https://photos.app.goo.gl/jvjgisw5eFkLGLjG8",
+            "image": "couple-game.jpg"
         }
     },
     {
@@ -86,8 +86,8 @@
             "description": "Get your life together, keep your positive affirmations in check, jot down your million pound ideas and organise your year with our page a day calendar.",
             "price": 27.99,
             "category": 3,
-            "image_url": "#",
-            "image": "#"
+            "image_url": "https://photos.app.goo.gl/6kXrTN3tS6ZfF9sE8",
+            "image": "Wallplanner.jpg"
         }
     }
 ]
