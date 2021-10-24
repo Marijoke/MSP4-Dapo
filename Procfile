@@ -1,0 +1,1 @@
+web: gunicorn MSP4-Dapo.wsgi:application
