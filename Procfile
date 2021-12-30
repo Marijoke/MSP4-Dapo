@@ -1,1 +1,1 @@
-web: gunicorn MSP4-Dapo.wsgi:application
+web: gunicorn django_dapo.wsgi:application
