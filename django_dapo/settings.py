@@ -26,7 +26,7 @@ SECRET_KEY = (
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = ['marijoke-dapo-msp4.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['https://dapo-msp4.herokuapp.com/', 'localhost']
 
 
 # Application definition

@@ -1,1 +1,1 @@
-web: gunicorn django_dapo.wsgi:application
+web: gunicorn django_dapo.wsgi
