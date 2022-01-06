@@ -21,7 +21,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = (
-    'django-insecure-(e1%9)v2@q-9xj12e$#&(8kh^juf0%et%dtzt#ui@y_rh12n=e'
 )
 
 # SECURITY WARNING: don't run with debug turned on in production!
