@@ -3,42 +3,42 @@
         "pk": 1, 
         "model": "products.category", 
         "fields": {"name": "sfw-game", 
-        "verbose_name": "SFW Games"}
+        "web_name": "SFW Games"}
     }, 
     {
         "pk": 2,
         "model": "products.category", 
         "fields": {"name": "nsfw-game", 
-        "verbose_name": "NSFW Games"}
+        "web_name": "NSFW Games"}
     }, 
     {
         "pk": 3,
         "model": "products.category",
         "fields": {"name": "life-planners", 
-        "verbose_name": "Lifestyle Planners"}
+        "web_name": "Lifestyle Planners"}
     }, 
     {
         "pk": 4, 
         "model": "products.category", 
         "fields": {"name": "clearance", 
-        "verbose_name": "Clearance"}
+        "web_name": "Clearance"}
     }, 
     {
         "pk": 5, 
         "model": "products.category", 
         "fields": {"name": "coming-soon", 
-        "verbose_name": "Coming Soon"}
+        "web_name": "Coming Soon"}
     },
     {
         "pk": 6, 
         "model": "products.category", 
         "fields": {"name": "couple-game", 
-        "verbose_name": "For Couples"}
+        "web_name": "For Couples"}
     }
     {
         "pk": 7, 
         "model": "products.category", 
         "fields": {"name": "wall-planner", 
-        "verbose_name": "Wall Planner"}
+        "web_name": "Wall Planner"}
     }
 ]
