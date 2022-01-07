@@ -21,3 +21,20 @@
 
 ## Manual testing & Bugs
 Please find the full testing document [here](https://1drv.ms/x/s!AiwsYx99ZOMqguAkcR_AevcmpS1Vyw?e=n3nqpr)
+
+## Errors
+
+- Failed to Deploy to Heroku
+    - The project kept coming up with continuous errors and failures to deploy. After many meetings with Tutors and my mentor we were able to fix the issue.
+    - The problem was due to rouge dependecies and required my dockerfile to be updated.
+- Products not showing 
+    - This error came after the Heroku error was fixed as my products showed up previously
+    - The products will not show but was rectified after identifying a problem with the superuser
+- Styling not showing
+    -   This is mostly fixed. I made the error of keeping my images in a media folder rather than in the static folder.
+- Admin not accessible
+    - There was a tuple error which I learned was due to either rouge commas or brackets
+    - The error was found in the auth section of my settings.py file
+- Product images and background not showing
+- Stripe API not connecting
+    - Issue unresolved at the moment. 

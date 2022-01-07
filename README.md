@@ -1,7 +1,7 @@
 # Dapo
 Dapo is lifestyle brand. We prioritise making life fun while occasionally maintaining order. Dapo is a reflection of where we greww up. An enoyable mixed bag. Play our drinking games or try our non drinking games. rekindle your romance and plan your next big life change. 
 
-[Please see the deployed site on Heroku here](link)
+[Please see the deployed site on Heroku here](https://dapo-msp4.herokuapp.com/)
 
 
 [Please see the repository on github here](https://github.com/Marijoke/MSP4-Dapo)
@@ -19,9 +19,9 @@ This website is for:
 
 
 ### Wireframes
-I created wireframes using [Adobe XD](https://adobe.ly/3ly9u5e)
+I created wireframes using [Balsamiq](https://balsamiq.com/wireframes/)
 
-[Please see Wireframes here.](LINK)
+[Please see Wireframes here.](https://photos.app.goo.gl/vNZNTjT2urccSYuu9)
 
 ### Fonts 
 The fonts chosen for the website are:
@@ -59,13 +59,12 @@ I used [Coolers](https://coolors.co/) to look up suitable colour schemes. In the
 - Python
 - Javascript
 - Heroku
-- AWS
 - Flask
 - jQuery
 - Stripe
 - 
 - 
-- [Adobe XD](https://adobe.ly/3ly9u5e)
+- [Balsamiq](https://balsamiq.com/wireframes/)
     - Created Wireframes for the project prior to development
 - [Github](https://github.com/) & [Gitpod](https://www.gitpod.io/)
     - Used to write, store and view code
