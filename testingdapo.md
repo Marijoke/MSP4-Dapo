@@ -13,7 +13,7 @@
 - As a potential user I want to be able to view and filter all your products
     - All products can be filtered for ease
 - As a potential user I want to I want sort products into catrgories
-    - The website allows you 
+    - The website allows you to
 - As a user I want to find what I have been searching for in the search bar.
     - The website features a search bar where al bar one/be at one.
 - As a potential user I want to be able to reset my password if I forget
@@ -23,7 +23,6 @@
 Please find the full testing document [here](https://1drv.ms/x/s!AiwsYx99ZOMqguAkcR_AevcmpS1Vyw?e=n3nqpr)
 
 ## Errors
-
 - Failed to Deploy to Heroku
     - The project kept coming up with continuous errors and failures to deploy. After many meetings with Tutors and my mentor we were able to fix the issue.
     - The problem was due to rouge dependecies and required my dockerfile to be updated.

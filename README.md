@@ -126,4 +126,5 @@ Local Deployment, run using Gitpod
 - [Learn JSON in Minutes](https://www.youtube.com/watch?v=iiADhChRriM)
 - [Stackoverflow](https://stackoverflow.com/) I used Stack for many things throught the project.
 ### Acknowledgements
-- 
+- My Tutors that spent full days and occasional night helping me get through this. Specifically James and Cheryl.
+- My Mentor for sitting eith me for hours to untangle whatever mess I made.
